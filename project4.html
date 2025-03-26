@@ -25,8 +25,9 @@
             <h2>Senior Design - Walk Assist Device</h2>
             <h3>Summary</h3>
             <p>
-                For my senior design project, I worked with 3 other students to design a walk assist device for rehabilitation.  This was composed of two modified Klann linkages side by side that were designed to move the user's legs through a path that closely mirrored the natural human gait cycle.  The hip and knee joint angles, as well as the path traced by the end of the linkage, near the foot are all critical in replicating a natural motion.  I was personally responsible for all of the mechanical design on this project, including the linkage design.
+                For my senior design project, I worked with 3 other students to design a walk assist device for rehabilitation.  This was composed of two modified Klann linkages side by side that were designed to move the user's legs through a path that closely mirrored the natural human gait cycle.  The hip and knee joint angles, as well as the path traced by the end of the linkage, near the foot are all critical in replicating a natural motion.  I was personally responsible for all of the mechanical design on this project, including the linkage design.  An application called MotionGen was used to aid in developing an effective linkage mechanism.
             </p>
+            <p><a href="https://www.youtube.com/watch?v=r0vEx48vB9M" target="_blank">Click for Video</a></p>
             <img src="images/walk_assist.jpg" alt="Work Experience 1 Detailed Image">
             <img src="images/walk_assist_cad.jpg" alt="Work Experience 1 Detailed Image">
             <img src="images/walk_assist_linkage.jpg" alt="Work Experience 1 Detailed Image">
@@ -46,10 +47,11 @@
             <h2>Stony Brook Motorsports</h2>
             <h3>Summary</h3>
             <p>
-                I joined Stony Brook Motorsports (Stony Brook's Baja SAE Team) during my sophomore year as a general body member and became the team's CVT subsystem leader during my senior year.  As the CVT subsystem leader, I was responsible for selecting and tuning the car's CVT in addition to designing a protective enclosure that also provided adequate cooling.  Testing was done on an engine dynamometer controlled by LabView and data was captured in MATLAB.  
+                I joined Stony Brook Motorsports (Stony Brook's Baja SAE Team) during my sophomore year as a general body member and became the team's CVT subsystem leader during my senior year.  As the CVT subsystem leader, I was responsible for selecting and tuning the car's CVT in addition to designing a protective enclosure that also provided adequate cooling.  Testing was done on an engine dynamometer controlled by LabView and data was captured and analyzed in MATLAB.  
             </p>
             <img src="images/machining.jpg" alt="Work Experience 2 Detailed Image">
             <img src="images/cvt_cover.jpg" alt="Work Experience 2 Detailed Image">
+            <img src="images/cvt_enclosure.jpg" alt="Work Experience 2 Detailed Image">
             <h4>Skills Used:</h4>
             <ul>
                 <li>Solidworks</li>
@@ -60,7 +62,64 @@
             </ul>
         </article>
 
-        <!-- Project 3 -->
+
+        <!-- Project 5 -->
+        <article class="project">
+            <h2>v-Quaternion Splines for Smooth Interpolation of Orientations</h2>
+            <h3>Summary</h3>
+            <p>
+                In MEC 572, for the final project we were required to analyze a paper of our choice on motion generation using splines and replicate the results graphically using C++.  For this project, I chose to analyze a paper by Gregory M. Nielsen titled "v-Quaternion Splines for the Smooth Interpolation of Orientations".  Given a set of orientations of an object in 3D space, this paper presents algorithms for determining the intermediate orientations that will allow for a smooth animation between orientations.  Using quaternions, a series of orientations can be represented as a spline on a 4D unit sphere and the interpolating quaternions can then be converted back to orientation matrices.    
+            </p>
+            </p>
+            <p><a href="https://www.youtube.com/watch?v=leGQ_N8Qfbs" target="_blank">Click for Video</a></p>
+            <img src="images/teapots.jpg" alt="Work Experience 2 Detailed Image">
+            <img src="images/unit_sphere_cord_length.jpg" alt="Work Experience 2 Detailed Image">
+            <img src="images/triad_chord_length.jpg" alt="Work Experience 2 Detailed Image">
+            <img src="images/GUI.jpg" alt="Work Experience 2 Detailed Image">
+            <h4>Skills Used:</h4>
+            <ul>
+                <li>C++</li>
+                <li>OpenGL</li>
+                <li>Linear Algebra</li>
+            </ul>
+        </article>
+
+
+        <!-- Project 6 -->
+        <article class="project">
+            <h2>Beam Loading Solver</h2>
+            <h3>Summary</h3>
+            <p>
+                In MEC 510, for the final project I developed a beam loading solver that could determine reaction forces as well as the shear and moment diagrams given inputs that included modulus of elasticity, moment of inertia, beam length, the location / magnitude of applied forces, and the locations of supports.  Here is a simple example, but the program works for more complicated examples as well.    
+            </p>
+            <img src="images/beam.jpg" alt="Work Experience 2 Detailed Image">
+            <img src="images/input_output.jpg" alt="Work Experience 2 Detailed Image">
+            <img src="images/shear.jpg" alt="Work Experience 2 Detailed Image">
+            <img src="images/moment.jpg" alt="Work Experience 2 Detailed Image">
+            <h4>Skills Used:</h4>
+            <ul>
+                <li>C++</li>
+                <li>Linear Algebra</li>
+            </ul>
+        </article>
+    
+
+    <!-- Project 4 -->
+        <article class="project">
+            <h2>Writing Robot</h2>
+            <h3>Summary</h3>
+            <p>
+                In Introduction to Robotics, the final project involved using MATLAB to simulate the motion of a 7 DdF Baxter robotic arm to write words on vertical a board given an input.  This was done using interpolation and inverse kinematics to generate a series of joint angles.  
+            </p>
+        
+            <h4>Skills Used:</h4>
+            <ul>
+                <li>MATLAB</li>
+                <li>inverse kinematics</li>
+            </ul>
+        </article>
+
+    <!-- Project 3 -->
         <article class="project">
             <h2>Frog Robot</h2>
             <h3>Summary</h3>
@@ -78,7 +137,6 @@
             </ul>
         </article>
     </section>
-
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 [Luke Richardson] | Mechanical Engineer</p>
